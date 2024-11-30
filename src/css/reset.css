@@ -13,21 +13,12 @@ header {
 }
 
 body {
-    background: url(../img/bg-desktop.svg) var(--primary-violet);
+    height: 100vh;
+    background: url(../img/bg-desktop.svg) no-repeat var(--primary-violet);
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
-}
-
-.header {
-    grid-area: header;
-}
-.main {
-    grid-area: main;
-}
-.footer {
-    grid-area: footer;
 }
 
 a {
