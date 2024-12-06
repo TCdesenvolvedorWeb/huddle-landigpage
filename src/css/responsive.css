@@ -1,5 +1,15 @@
 
 @media (min-width: 726px) {
+    body{
+        background: url(../img/bg-desktop.svg) no-repeat var(--primary-violet) top center;
+    }
+
+    .header .logo {
+        margin-top: 4.7rem;
+        margin-left: 4.48rem;
+        max-width: 15.9rem;
+    }
+
     .services .info {
         max-width: 40rem;
     }
@@ -15,8 +25,14 @@
         flex-direction: column;
     }
     .header{
-        
-        align-items: center;
+        height: 7rem;
+        margin-bottom: 2.3rem;
+    }
+
+    .header .logo {
+        margin-top: 3rem;
+        margin-left: 2rem;
+        max-width: 14rem;
     }
 
     .main .services {
@@ -33,6 +49,15 @@
     .services .info {
         margin: 0;
         width: 100%;
+        
+    }
+
+    .services .info h2 {
+        font-size: 2.3rem;
+    }
+
+    .services .info p {
+        font-size: 1.44rem;
     }
 
     .footer {
@@ -49,7 +74,11 @@
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+    body{
+        background: url(../img/bg-mobile.svg) no-repeat var(--primary-violet) top center;
+    }
+
     .footer{
         margin-top: 7rem;
     }

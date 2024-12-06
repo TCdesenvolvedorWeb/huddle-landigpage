@@ -3,12 +3,6 @@
     height: 11rem;
 }
 
-.header .logo {
-    margin-top: 4.7rem;
-    margin-left: 4.48rem;
-    max-width: 15.9rem;
-}
-
 .logo img {
     width: 100%;
 }
@@ -17,8 +11,9 @@
 
 
 .main {
-    width: 100%;
+    max-width: 1440px;
     height: 100vh;
+    margin: 0 auto;
 }
 .main .services {
     display: flex;
@@ -61,7 +56,7 @@
     margin-top: 2rem;
     border-radius: 20px;
     border: solid 1px rgba(0, 0, 0, 0);
-    box-shadow: 0.2px 0.5px 10px 0.1px #000;
+    box-shadow: 1px 1px 20px 6px rgba(3, 3, 3, 0.3);
     transition: 0.3s ease-in-out;
 }
 
@@ -78,6 +73,9 @@
     justify-content: end;
 }
 
+.social{
+    display: flex;
+}
 .social .fa-brands {
     margin-left: 1rem;
     padding: 1rem;
