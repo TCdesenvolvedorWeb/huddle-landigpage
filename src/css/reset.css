@@ -15,8 +15,11 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
+.logo img {
+    width: 100%;
+}
+
 body {
-    background: url(../img/bg-desktop.svg) no-repeat var(--primary-violet);
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;

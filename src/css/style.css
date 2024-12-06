@@ -1,14 +1,6 @@
 .header {
-    display: flex;
     height: 11rem;
 }
-
-.logo img {
-    width: 100%;
-}
-
-/* ------------Main------------ */
-
 
 .main {
     max-width: 1440px;
@@ -17,21 +9,11 @@
 }
 .main .services {
     display: flex;
-    max-width: 100% ;
-    max-height: 100%;
     padding: 4.5rem;
-    padding-bottom: 0;
-    align-content: space-around;
-    gap: 2rem;
-}
-
-.main .services .banner {
-    max-width: 559px;
 }
 
 .services .banner img {
     max-width: 100%;
-    margin-right: 4em;
 }
 
 .services .info {   

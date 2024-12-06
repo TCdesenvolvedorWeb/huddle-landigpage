@@ -1,7 +1,10 @@
 
 @media (min-width: 726px) {
     body{
-        background: url(../img/bg-desktop.svg) no-repeat var(--primary-violet) top center;
+        background-image: url(../img/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: var(--primary-violet);
+        background-size: cover;
     }
 
     .header .logo {
@@ -23,6 +26,10 @@
 @media (max-width: 725px) {
     body{
         flex-direction: column;
+        background-image: url(../img/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: var(--primary-violet);
+        background-size: cover;
     }
     .header{
         height: 7rem;
@@ -76,7 +83,10 @@
 
 @media (max-width: 500px) {
     body{
-        background: url(../img/bg-mobile.svg) no-repeat var(--primary-violet) top center;
+        background-image: url(../img/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: var(--primary-violet);
+        background-size: contain;
     }
 
     .footer{
